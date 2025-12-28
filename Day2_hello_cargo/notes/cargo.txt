@@ -1,0 +1,33 @@
+3. Let's craete a project using cargo
+-> move to root directory
+-> run command cargo new Day2_hello_cargo --bin
+
+here in above command 
+cargo -> tells terminal to user cargo pakcage manger
+
+new > is cargo subcommand, it create brand new rust object.
+
+Day2_hello_cargo is name of project
+
+--bin > this flag means we are telling to "Create a binary project"
+
+a binary project means it will have a runnable programe and a main function.
+
+
+>> Inside project
+ 1. Cargo.toml  ( Tom's obvious, Minimal Language create by Tom Preston)
+
+ 2. Inside src we have our main.rs, the file where we can code everything
+
+ 3. On running cargo build it build our project and put compiled build files output in targer folder.
+
+ 4. Inde targert/debug we have out Day2_hello_cargo executable file which we can manully execute or we can run command cargo run to execute.
+
+ 5. Things about cargo run  
+    -- If there is no chnage cargo run will automatically not compile but direcly run the file.
+
+    -- If there is chnage it will complie first
+
+    -- we can use cargo check command to check for type err or complie err.
+
+    -- hence cargo check hep use to fasten up development process by letting use check for err without building every time.  
